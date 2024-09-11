@@ -14,7 +14,7 @@ messages = [
     "Hope you're having a great day!"
 ]
 
-#Enable informational logging
+# Enable informational logging
 logging.basicConfig(filename='logs/imessage_sender.log', level=logging.INFO)
 
 # Function to send iMessage via AppleScript
