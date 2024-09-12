@@ -31,7 +31,7 @@ def send_imessage(contact, message):
 # Function to choose a random message and send it
 def send_random_message():
     message = random.choice(messages)
-    contact = "rememberryanrules@gmail.com"  # Replace with the actual contact
+    contact = "SOME_EMAIL@gmail.com"  # Replace with the actual contact
     send_imessage(contact, message)
     print(f"Message sent at {datetime.now()}: {message}")
 
