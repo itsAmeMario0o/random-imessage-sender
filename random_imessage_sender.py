@@ -7,11 +7,11 @@ from datetime import datetime, timedelta
 
 # List of predefined messages
 messages = [
-    "Hello! Just checking in.",
-    "How's your day going?",
-    "Don't forget to relax!",
-    "Sending good vibes your way.",
-    "Hope you're having a great day!"
+    "Goodnight, buddy! You make me proud every day.",
+    "Night Cacanaka!",
+    "Sleep tight, Ryan!",
+    "Coca cola ess puma",
+    "Hope you've had a great day!"
 ]
 
 # Enable informational logging
@@ -31,7 +31,7 @@ def send_imessage(contact, message):
 # Function to choose a random message and send it
 def send_random_message():
     message = random.choice(messages)
-    contact = "recipient_phone_or_email"  # Replace with the actual contact
+    contact = "rememberryanrules@gmail.com"  # Replace with the actual contact
     send_imessage(contact, message)
     print(f"Message sent at {datetime.now()}: {message}")
 
